@@ -1,11 +1,15 @@
 import axios from "axios";
+import backendAPI from '../backendAPI'
+
+const apiEndpoint = `${backendAPI}/api/v1`;
+
 export const getUser = () => async (dispatch) => {
     try {
         dispatch({
             type: "GET_USER_REQUEST",
         });
 
-        const { data } = await axios.get("/api/v1/user");
+        const { data } = await axios.get(`${apiEndpoint}/user`);
 
         dispatch({
             type: "GET_USER_SUCCESS",
