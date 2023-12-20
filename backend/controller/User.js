@@ -16,7 +16,7 @@ export const login = async (req, res) => {
     }
     // if user correct then go for generatetoken
 
-    const token = jwt.sign({ _id: user._id }, process.env.JWT_SECRET);
+    const token = jwt.sign({ _id: user._id }, "jdvkcvkjdnvcmsxnckjsdbshbdhbcbhbschncshdcsdfkjgjsfg");
     res
       .status(200)
       .cookie("token", token, {

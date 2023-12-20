@@ -9,6 +9,7 @@
         "mongoose": "^7.3.0",
         "node": "^19.8.1",
         "nodemailer": "^6.9.4",
+        "nodemon": "^3.0.2",
         "react-alert": "^7.0.3",
         "react-router-dom": "^6.9.0"
     },
@@ -18,17 +19,17 @@
     "type": "module",
     "scripts": {
         "start": "react-scripts",
-        "dev": "nodemon backend/server.js"
+        "dev": "nodemon server.js"
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/Ankit-11525/PORTFOLIO.git"
+        "url": "https://github.com/Vineet-0/MERN-Portfolio"
     },
     "author": "",
     "license": "ISC",
     "bugs": {
-        "url": "https://github.com/Ankit-11525/PORTFOLIO/issues"
+        "url": "https://github.com/Vineet-0/MERN-Portfolio/issues"
     },
-    "homepage": "https://github.com/Ankit-11525/PORTFOLIO#readme",
+    "homepage": "https://github.com/Vineet-0/MERN-Portfolio#readme",
     "description": ""
 }
